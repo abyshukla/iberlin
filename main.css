@@ -38,15 +38,15 @@ body {
   height: 60px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: medium;
   line-height: 60px;
   text-decoration: none;
 }
-a:hover{
-    cursor: pointer;
+a:hover {
+  cursor: pointer;
 }
 #headerText h1 {
-  font-size: 300%;
+  font-size: xx-large;
   margin-bottom: 0;
 }
 #aboutUs {
@@ -62,39 +62,70 @@ hr {
   border: 1px solid black;
   border-radius: 1px;
 }
-h3{
-    font-size: x-large;
-    font-weight: 100;
-    margin-bottom: 0;
+h3 {
+  font-size: x-large;
+  font-weight: 100;
+  margin-bottom: 0;
 }
 h2 {
   font-size: xx-large;
   margin-bottom: 10px;
   text-align: center;
 }
-p{
-    font-size: large;
-    line-height: 180%;
+p {
+  font-size: large;
+  line-height: 180%;
 }
-footer{
-    border-top: 3px solid gainsboro;
-    margin-top: 50px;
-    padding: 50px 0 50px 0;
-    text-align: center;
+footer {
+  border-top: 3px solid gainsboro;
+  margin-top: 50px;
+  padding: 50px 0 50px 0;
+  text-align: center;
 }
-#menuImg{
-    width: 100%;
+#menuImg {
+  width: 100%;
 }
 
-#outlets{
-    display: flex;
-    text-align: center;
+#outlets {
+  display: flex;
+  text-align: center;
 }
-.gridCell{
-    height: 100px;
+.gridCell {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+@media (max-width: 1076px) {
+  #header {
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+  }
+  #headerText {
+    width: 100%;
+    background: red;
+    display: flex;
     justify-content: center;
-    font-size: 30px;
+    flex-direction: column;
+    font-size: medium;
+    padding: 0 0 20px 0;
+  }
+  #headerImg {
+    width: 100%;
+  }
+  #aboutUs {
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  #container {
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+  }
 }
