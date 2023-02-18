@@ -1,0 +1,19 @@
+body{
+background-color: #FFBF00;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 90vh;
+/* overflow: auto; */
+background: radial-gradient(circle, rgba(250, 255, 0, 1) 0%, rgba(255, 190, 0, 1) 250px);
+}
+/* .center-logo{
+  border-radius: 50%;
+} */
+h1{
+  font-family: "Quicksand";
+  text-align: center;
+}
