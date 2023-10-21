@@ -1,19 +1,104 @@
-body{
-background-color: #FFBF00;
+button {
+    display: inline-block;
+    border: none;
+    background: #fff;
+    box-shadow: 0px 0px 6px 1px lightgray;
+    font-family: Quicksand;
+    font-size: large;
+    font-weight: 600;
 }
-.container{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-height: 90vh;
-/* overflow: auto; */
-background: radial-gradient(circle, rgba(250, 255, 0, 1) 0%, rgba(255, 190, 0, 1) 250px);
+
+.home-section {
+    height: 100vh;
+    width: 100vw;
+    background: #ffbe00;
+    padding: auto;
+    display: flex;
 }
-/* .center-logo{
-  border-radius: 50%;
-} */
-h1{
-  font-family: "Quicksand";
-  text-align: center;
+
+#home-section-logo {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact_form {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: .5s;
+    padding: 3% 6%;
+}
+
+#whatsapp-btn {
+    width: 30%;
+}
+
+#menu_options {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: .5s;
+    padding: 10% 6%;
+}
+
+#menu_bar {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    position: fixed;
+    z-index: 2;
+}
+
+#contact_form,
+#menu_options,
+li>a {
+    font-family: quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-left: 5rem;
+}
+
+.aside-close {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.contact-toggle {
+    border-radius: 20px;
+    width: 7rem;
+    height: 3rem;
+    margin-left: .5rem;
+}
+
+.orange {
+    background-color: orange;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    moz-appearance: none;
+    margin: 0;
 }
