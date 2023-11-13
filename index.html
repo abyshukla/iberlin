@@ -1,17 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iBerlin - The New Era of Taste</title>
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="iBerlin" content="A portfolio of products that we manufacture.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>iBerlin - The New Era of Taste</title>
+    <link rel="stylesheet" href="./css/material-custom-font.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
+
 <body>
-  <div class="container">
-    <img class="center-logo" src="./Vector-iBerlin.svg">
-  </div>
-    <h1 class="center-text">Something exciting is going to be here soon!!</h1>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">iBerlin - The New Era of Taste</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="index.html">Products</a>
+                    <a class="mdl-navigation__link" href="about.html">About</a>
+                    <a class="mdl-navigation__link" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Products</a>
+                <a class="mdl-navigation__link" href="about.html">About</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="./res/thin-noodle.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Premium Noodle Selection</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Elevate your dishes with our premium noodle collection, featuring a range of options.<br />Choose from round noodles in 1 mm, 1.2 mm, and 1.5 mm thicknesses, or opt for the delicate flat noodles available in 1 mm and 1.2 mm.<br />Unleash your culinary creativity with these versatile noodles.
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="./res/wonton.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Wonton Elegance - Square 4"x4"</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Transform your appetizers into works of art with our square wonton wrappers. Whether you prefer the classic white or the vibrant yellow, these 4"x4" wrappers provide the perfect foundation for your wonton masterpieces. Create stunning bites that captivate both the eyes and taste buds.
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="./res/dimsum.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Artisanal Dimsum Sheets - Round Bliss</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Immerse yourself in the art of dim sum making with our artisanal round sheets. Sized at 3" and 4", these sheets are meticulously crafted to enhance the authenticity of your dim sum creations. Elevate your culinary skills and delight in the delicate balance of flavors.
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="./res/momo.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Mouthwatering Momo Sheets - Crafted to Perfection</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Craft momos with perfection using our round sheets, available in 3" and 4" sizes. These sheets provide the ideal thickness to encase your delectable fillings, ensuring every bite is a burst of flavor. Unleash the momo maestro in you with our quality sheets.
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="./res/chopsuey.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Chop Suey Excellence - 1.5 mm Magic</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Take your stir-fry game to new heights with our 1.5 mm chop suey noodles. Whether you choose the classic white or the vibrant yellow, these noodles add a delightful crunch to your dishes. Elevate your stir-fries with the magic of Chop Suey Excellence.
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="./res/noodle-sampler.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Noodle Sampler Pack - Explore the Varieties</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Can't decide? Try our Sampler Packs &ndash; featuring a variety of round and flat noodles and sheets in different thicknesses and widths. Experiment with textures and flavors to discover your favorite. Unleash your inner chef with this diverse collection that promises a culinary adventure.
+                    </div>
+                </div>
+            </div>
+            <!-- <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Simple portfolio website</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy & Terms</a></li>
+                    </ul>
+                </div>
+            </footer> -->
+        </main>
+    </div>
+    <script src="./js/material.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
 </body>
+
 </html>
