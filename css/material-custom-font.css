@@ -194,7 +194,7 @@ main {
 
 html,
 body {
-    font-family: "Montserrat","Helvetica", "Arial", sans-serif;
+    font-family: "Merriweather","Helvetica", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px
@@ -216,7 +216,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     line-height: 1.35;
     letter-spacing: -.02em;
@@ -233,7 +233,7 @@ h1 {
 
 h1,
 h2 {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: 400
 }
 
@@ -254,7 +254,7 @@ h3 {
 
 h3,
 h4 {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-weight: 400
 }
 
@@ -274,7 +274,7 @@ h5 {
 
 h5,
 h6 {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     margin: 24px 0 16px
 }
 
@@ -301,7 +301,7 @@ a {
 }
 
 blockquote {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     position: relative;
     font-size: 24px;
     font-weight: 300;
@@ -350,7 +350,7 @@ ol {
 
 .mdl-typography--display-4,
 .mdl-typography--display-4-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 112px;
     font-weight: 300;
     line-height: 1;
@@ -363,7 +363,7 @@ ol {
 
 .mdl-typography--display-3,
 .mdl-typography--display-3-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 56px;
     font-weight: 400;
     line-height: 1.35;
@@ -376,7 +376,7 @@ ol {
 
 .mdl-typography--display-2,
 .mdl-typography--display-2-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 45px;
     font-weight: 400;
     line-height: 48px
@@ -388,7 +388,7 @@ ol {
 
 .mdl-typography--display-1,
 .mdl-typography--display-1-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 34px;
     font-weight: 400;
     line-height: 40px
@@ -400,7 +400,7 @@ ol {
 
 .mdl-typography--headline,
 .mdl-typography--headline-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -413,7 +413,7 @@ ol {
 
 .mdl-typography--title,
 .mdl-typography--title-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1;
@@ -426,7 +426,7 @@ ol {
 
 .mdl-typography--subhead,
 .mdl-typography--subhead-color-contrast {
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -4762,7 +4762,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
 .mdl-layout-title {
     display: block;
     position: relative;
-    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 20px;
     line-height: 1;
     letter-spacing: .02em;
